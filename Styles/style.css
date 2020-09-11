@@ -1,0 +1,16 @@
+* { background-color: burlywood;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.Titles {
+    font-size: 20mm;
+    font-style: italic;
+}
+
+p.CenterPs {
+    font-size: 13mm;
+}
+
+img {
+    align-self: text;
+}
