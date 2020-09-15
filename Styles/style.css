@@ -3,4 +3,31 @@ h1 {
     font-size: 30pt;
     color: brown;
     text-shadow: 2px 2px 4px violet;
+    text-align: justify center;
+}
+pre p{
+    text-align: justify;
+    font-size: 14px;
+    text-indent: 30px;
+    text-justify: newspaper;
+}
+div.central {
+    text-align: center;
+}
+figure img{
+    border: 8px solid rgba(139, 321, 314, 0);
+    box-shadow: 1px 1px 4px black;
+    size: relative;
+    width: 50%;
+    height: 50%;
+    transition: opacity 500ms;
+}
+figcaption {
+    text-align: justify;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+figure:hover img {
+    border-color: rgba(139, 321, 314, 1)
 }
